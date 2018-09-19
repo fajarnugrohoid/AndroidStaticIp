@@ -1,0 +1,129 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-61:12
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-61:12
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-61:12
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\39be0de764b5dd397743f4439ab50024\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\e88d7f27a33e6caf08196d7cdcba19ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\149bb16351e357a28213fab4510acefb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\2d4d7564f218fed65b553ed9da2010c3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\c7aed061a52510c5f1e9532d9a0875f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c25f59bf80da80bb516c528acee86c05\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\187c996408d9faabeb3a39ee703cf7a2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\8cca29236ca18feb3069deebbd9f3908\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\9c1278bc6d4fa2293a3bfbb1f0b4dc20\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\29ababcfd37baabf3f30db57510f2dbf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5b4a8e160972919d229e62b3109e495f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\2ff507ef97007b3cfb68f5c1cf14925f\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-61:12
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-61:12
+	package
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:18:5-60
+	android:versionName
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:21:5-30
+		INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:19:5-63
+	android:versionCode
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:20:5-28
+		INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:24:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:26:5-76
+	android:name
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:26:22-73
+application
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:30:5-58:19
+	android:label
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:33:9-41
+	android:icon
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:32:9-45
+	android:allowBackup
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:31:9-35
+	android:theme
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:34:9-49
+activity#com.example.android.wificonfigurationstaticip.MainActivity
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:36:9-43:20
+	android:label
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:38:13-45
+	android:name
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:37:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:39:13-42:29
+action#android.intent.action.MAIN
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:40:17-68
+	android:name
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:41:17-76
+	android:name
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:41:27-74
+receiver#com.example.android.wificonfigurationstaticip.DeviceOwnerReceiver
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:45:9-56:20
+	android:label
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:48:13-45
+	android:permission
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:49:13-70
+	android:description
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:47:13-51
+	android:name
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:46:13-48
+meta-data#android.app.device_admin
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:50:13-52:64
+	android:resource
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:52:17-62
+	android:name
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:51:17-56
+intent-filter#android.app.action.PROFILE_PROVISIONING_COMPLETE
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:53:13-55:29
+action#android.app.action.PROFILE_PROVISIONING_COMPLETE
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:54:17-90
+	android:name
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:54:25-88
+uses-sdk
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\39be0de764b5dd397743f4439ab50024\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\39be0de764b5dd397743f4439ab50024\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\e88d7f27a33e6caf08196d7cdcba19ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\e88d7f27a33e6caf08196d7cdcba19ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\149bb16351e357a28213fab4510acefb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\149bb16351e357a28213fab4510acefb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\2d4d7564f218fed65b553ed9da2010c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\2d4d7564f218fed65b553ed9da2010c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\c7aed061a52510c5f1e9532d9a0875f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\c7aed061a52510c5f1e9532d9a0875f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c25f59bf80da80bb516c528acee86c05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c25f59bf80da80bb516c528acee86c05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\187c996408d9faabeb3a39ee703cf7a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\187c996408d9faabeb3a39ee703cf7a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\8cca29236ca18feb3069deebbd9f3908\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\8cca29236ca18feb3069deebbd9f3908\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\9c1278bc6d4fa2293a3bfbb1f0b4dc20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\9c1278bc6d4fa2293a3bfbb1f0b4dc20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\29ababcfd37baabf3f30db57510f2dbf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\29ababcfd37baabf3f30db57510f2dbf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5b4a8e160972919d229e62b3109e495f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5b4a8e160972919d229e62b3109e495f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\2ff507ef97007b3cfb68f5c1cf14925f\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\2ff507ef97007b3cfb68f5c1cf14925f\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml
