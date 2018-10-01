@@ -1,4 +1,4 @@
-#Wed Sep 19 10:44:28 ICT 2018
+#Thu Sep 20 11:42:31 ICT 2018
 base.0=D\:\\fajar\\android\\WifiConfigurationStaticIp\\WifiConfigurationStaticIp\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\7
 path.0=classes.dex
 renamed.0=classes.dex

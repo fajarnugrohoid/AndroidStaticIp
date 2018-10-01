@@ -43,16 +43,16 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "logwificonfiguration";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_real);
 
-        Context context = getApplicationContext();
 
-        getDeviceNetworkIp(context);
+
+
 
 
 
@@ -69,6 +69,10 @@ public class MainActivity extends AppCompatActivity {
                 showFragment(InstructionFragment.newInstance());
             }
         }
+        Log.i(TAG, "context xxx");
+        System.out.println("context yyy");
+        Context context = getApplicationContext();
+        getDeviceNetworkIp(context);
     }
 
     private void showFragment(Fragment fragment) {
@@ -80,12 +84,15 @@ public class MainActivity extends AppCompatActivity {
     public static String getDeviceNetworkIp(Context context) {
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context
                 .CONNECTIVITY_SERVICE);
+        Log.d(TAG, "getDeviceNetworkIp");
+        System.out.println("getDeviceNetworkIp yyy");
 
         WifiConfiguration wifiConf = null;
 
         NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
 
         Log.d(TAG, "networkInfo:" + networkInfo);
+        System.out.println("networkInfo:" + networkInfo);
 
 
         if (networkInfo != null) {
@@ -96,6 +103,8 @@ public class MainActivity extends AppCompatActivity {
                 int ipAddress = wifiInfo.getIpAddress();
 
                 Log.d(TAG, "ip:" + ipAddress);
+                System.out.println("ip:" + ipAddress);
+
                 String Ipv4Address = null;
                 try {
                     Ipv4Address = InetAddress
@@ -106,31 +115,36 @@ public class MainActivity extends AppCompatActivity {
                                             (ipAddress >> 24 & 0xff))).getHostAddress()
                             .toString();
                     Log.d(TAG, "Ipv4Address:" + Ipv4Address);
+                    System.out.println("Ipv4Address:" + Ipv4Address);
                 } catch (UnknownHostException e) {
                     e.printStackTrace();
                 }
 
                 List<WifiConfiguration> configuredNetworks = wifi.getConfiguredNetworks();
                 Log.d(TAG, "configuredNetworks:" + configuredNetworks);
+                System.out.println("configuredNetworks:" + configuredNetworks);
                 for (WifiConfiguration conf : configuredNetworks){
                     Log.d(TAG, "WifiConfiguration:" + conf.networkId + "==wifiInfo.getNetworkId:" + wifiInfo.getNetworkId());
+                    System.out.println("WifiConfiguration:" + conf.networkId  + "==wifiInfo.getNetworkId:" + wifiInfo.getNetworkId());
                     if (conf.networkId == wifiInfo.getNetworkId()){
                         wifiConf = conf;
                         Log.d(TAG, "wifiConf:" + wifiConf);
+                        System.out.println("wifiConf:" + wifiConf);
                         break;
                     }
                 }
 
-//                try{
-//                    setIpAssignment("STATIC", wifiConf); //or "DHCP" for dynamic setting
-//                    setIpAddress(InetAddress.getByName("192.168.66.166"), 24, wifiConf);
-//                    setGateway(InetAddress.getByName("4.4.4.4"), wifiConf);
-//                    setDNS(InetAddress.getByName("4.4.4.4"), wifiConf);
-//                    wifi.updateNetwork(wifiConf); //apply the setting
-//                    wifi.saveConfiguration(); //Save it
-//                }catch(Exception e){
-//                    e.printStackTrace();
-//                }
+                /*
+                try{
+                    setIpAssignment("STATIC", wifiConf); //or "DHCP" for dynamic setting
+                    setIpAddress(InetAddress.getByName("192.168.66.200"), 24, wifiConf);
+                    setGateway(InetAddress.getByName("192.168.66.1"), wifiConf);
+                    setDNS(InetAddress.getByName("4.4.4.4"), wifiConf);
+                    wifi.updateNetwork(wifiConf); //apply the setting
+                    wifi.saveConfiguration(); //Save it
+                }catch(Exception e){
+                    e.printStackTrace();
+                } */
 
                 MakeStaticIp wifiConfigurationMe = new MakeStaticIp();
                 wifiConfigurationMe.test(context, wifiConf);

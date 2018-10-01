@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-61:12
-INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-61:12
-INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-61:12
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-64:12
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-64:12
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-64:12
 MERGED from [com.android.support:support-v13:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\39be0de764b5dd397743f4439ab50024\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\e88d7f27a33e6caf08196d7cdcba19ad\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\149bb16351e357a28213fab4510acefb\AndroidManifest.xml:17:1-22:12
@@ -15,8 +15,8 @@ MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\FAJAR-NB\.grad
 MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\29ababcfd37baabf3f30db57510f2dbf\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5b4a8e160972919d229e62b3109e495f\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\FAJAR-NB\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\2ff507ef97007b3cfb68f5c1cf14925f\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-61:12
-INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-61:12
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-64:12
+INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:17:1-64:12
 	package
 		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:18:5-60
 	android:versionName
@@ -42,9 +42,13 @@ ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\
 	android:name
 		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:26:22-73
 application
-ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:30:5-58:19
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:30:5-61:19
+	android:sharedUserId
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:35:9-50
 	android:label
 		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:33:9-41
+	android:testOnly
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:36:9-32
 	android:icon
 		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:32:9-45
 	android:allowBackup
@@ -52,43 +56,43 @@ ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\
 	android:theme
 		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:34:9-49
 activity#com.example.android.wificonfigurationstaticip.MainActivity
-ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:36:9-43:20
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:39:9-46:20
 	android:label
-		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:38:13-45
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:41:13-45
 	android:name
-		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:37:13-41
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:40:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:39:13-42:29
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:42:13-45:29
 action#android.intent.action.MAIN
-ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:40:17-68
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:43:17-68
 	android:name
-		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:40:25-66
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:41:17-76
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:44:17-76
 	android:name
-		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:41:27-74
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:44:27-74
 receiver#com.example.android.wificonfigurationstaticip.DeviceOwnerReceiver
-ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:45:9-56:20
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:48:9-59:20
 	android:label
-		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:48:13-45
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:51:13-45
 	android:permission
-		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:49:13-70
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:52:13-70
 	android:description
-		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:47:13-51
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:50:13-51
 	android:name
-		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:46:13-48
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:49:13-48
 meta-data#android.app.device_admin
-ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:50:13-52:64
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:53:13-55:64
 	android:resource
-		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:52:17-62
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:55:17-62
 	android:name
-		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:51:17-56
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:54:17-56
 intent-filter#android.app.action.PROFILE_PROVISIONING_COMPLETE
-ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:53:13-55:29
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:56:13-58:29
 action#android.app.action.PROFILE_PROVISIONING_COMPLETE
-ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:54:17-90
+ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:57:17-90
 	android:name
-		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:54:25-88
+		ADDED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml:57:25-88
 uses-sdk
 INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\fajar\android\WifiConfigurationStaticIp\WifiConfigurationStaticIp\Application\src\main\AndroidManifest.xml

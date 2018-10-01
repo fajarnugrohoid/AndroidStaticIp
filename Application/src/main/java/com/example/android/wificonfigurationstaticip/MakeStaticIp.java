@@ -3,6 +3,7 @@ package com.example.android.wificonfigurationstaticip;
 import android.content.Context;
 import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiManager;
+import android.util.Log;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -13,31 +14,38 @@ import java.util.ArrayList;
 
 public class MakeStaticIp {
 
+    public String TAG="MakeStaticIp";
+
     public void test(Context context, WifiConfiguration wifiConf)
     {
         WifiManager manager = (WifiManager)context.getSystemService(Context.WIFI_SERVICE);
-
+        Log.d(TAG, "MakeStaticIp.manager:" + manager);
+        System.out.println("MakeStaticIp.manager:" + manager);
         if (wifiConf != null)
         {
             try
             {
+                System.out.println("try setStaticIpConfiguration");
                 setStaticIpConfiguration(manager, wifiConf,
-                        InetAddress.getByName("192.168.15.113"), 24,
-                        InetAddress.getByName("192.168.15.13"),
-                        new InetAddress[] { InetAddress.getByName("203.142.82.222"), InetAddress.getByName("8.8.8.8") });
+                        InetAddress.getByName("192.168.30.188"), 24,
+                        InetAddress.getByName("192.168.30.1"),
+                        new InetAddress[] { InetAddress.getByName("8.8.8.8"), InetAddress.getByName("8.8.4.4") });
             }
             catch (Exception e)
             {
+                System.out.println("e.printStackTrace:" + e.getMessage());
                 e.printStackTrace();
             }
         }
     }
 
     @SuppressWarnings("unchecked")
-    public static void setStaticIpConfiguration(WifiManager manager, android.net.wifi.WifiConfiguration config, InetAddress ipAddress, int prefixLength, InetAddress gateway, InetAddress[] dns) throws ClassNotFoundException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, NoSuchFieldException, InstantiationException
+    public void setStaticIpConfiguration(WifiManager manager, android.net.wifi.WifiConfiguration config, InetAddress ipAddress, int prefixLength, InetAddress gateway, InetAddress[] dns) throws ClassNotFoundException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, NoSuchFieldException, InstantiationException
     {
         // First set up IpAssignment to STATIC.
         Object ipAssignment = getEnumValue("android.net.IpConfiguration$IpAssignment", "STATIC");
+        Log.d(TAG, "MakeStaticIp.ipAssignment:" + ipAssignment);
+        System.out.println("MakeStaticIp.ipAssignment:" + ipAssignment);
         callMethod(config, "setIpAssignment", new String[] { "android.net.IpConfiguration$IpAssignment" }, new Object[] { ipAssignment });
 
         // Then set properties in StaticIpConfiguration.
@@ -51,8 +59,22 @@ public class MakeStaticIp {
             getField(staticIpConfig, "dnsServers", ArrayList.class).add(dns[i]);
 
         callMethod(config, "setStaticIpConfiguration", new String[] { "android.net.StaticIpConfiguration" }, new Object[] { staticIpConfig });
-        manager.updateNetwork(config);
-        manager.saveConfiguration();
+        int netId = manager.updateNetwork(config);
+        System.out.println("netid:" + netId);
+        boolean result =  netId!= -1; //apply the setting
+        System.out.println("res netid:" + result);
+        if(result){
+            boolean isDisconnected =  manager.disconnect();
+            System.out.println("res isDisconnected:" + isDisconnected);
+            boolean configSaved = manager.saveConfiguration(); //Save it
+            System.out.println("res configSaved:" + configSaved);
+            boolean isEnabled = manager.enableNetwork(config.networkId, true);
+            System.out.println("res isEnabled:" + isEnabled);
+            // reconnect with the new static IP
+            boolean isReconnected = manager.reconnect();
+            System.out.println("res isReconnected:" + isReconnected);
+        }
+        //manager.saveConfiguration();
     }
 
 
@@ -89,11 +111,14 @@ public class MakeStaticIp {
 
     private static void callMethod(Object object, String methodName, String[] parameterTypes, Object[] parameterValues) throws ClassNotFoundException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException
     {
+        System.out.println("object:" + object);
         Class<?>[] parameterClasses = new Class<?>[parameterTypes.length];
-        for (int i = 0; i < parameterTypes.length; i++)
+        for (int i = 0; i < parameterTypes.length; i++){
+            System.out.println("parameterClasses i:" + Class.forName(parameterTypes[i]));
             parameterClasses[i] = Class.forName(parameterTypes[i]);
-
+        }
         Method method = object.getClass().getDeclaredMethod(methodName, parameterClasses);
+        System.out.println("method:" + method);
         method.invoke(object, parameterValues);
     }
 }

@@ -33,6 +33,7 @@
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+        android:sharedUserId="android.uid.system"
         android:testOnly="true"
         android:theme="@style/Theme.DeviceOwner" >
         <activity
